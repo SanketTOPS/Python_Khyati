@@ -1,6 +1,29 @@
-"""for i in 'Python':
+"""for i in "Python":
+    print(i)"""
+
+"""for i in range(11):
+    print(i)"""
+
+"""for i in range(1,11):
+    print(i)"""
+
+"""for i in range(1,11):
+    if i%2!=0:
+        print(i)"""
+
+"""for i in range(1,11):
+    if i%2==0:
+        print(i)"""
+
+"""for i in range(1,11,2):
+    print(i)"""
+
+"""for i in range(2,11,2):
+    print(i)"""
+
+"""for i in range(10,0,-1):
     print(i)"""
 
 
-for i in range(11):
-    print(i)
+for i in range(1,11):
+    print(f"{5}*{i}={5*i}")
